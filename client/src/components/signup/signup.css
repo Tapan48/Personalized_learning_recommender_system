@@ -1,0 +1,81 @@
+.SignUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .SignUp-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-top: 1rem;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4fa3d1;
+  }
+  
+
+  
+.SignUp-options {
+    margin-top: 1.5rem;
+  }
+  
+  .SignUp-options p {
+    color: #555;
+  }
+  
+  button.Google {
+    background-color: #4285f4;
+    color: #fff;
+  }
+  
+  button.GitHub {
+    background-color: #333;
+    color: #fff;
+    margin-top: 0.5rem;
+  }
+  
+  button {
+    /* ... Existing button styles ... */
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    /* ... Existing hover styles ... */
+    background-color: #4fa3d1;
+  }

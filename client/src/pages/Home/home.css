@@ -1,0 +1,160 @@
+/* HomePage.css */
+
+.HomePage {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.Header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.Header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.Header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.Header p {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.MainContent {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.SearchSection {
+  margin-bottom: 40px;
+}
+
+.SearchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchBox input {
+  padding: 12px;
+  width: 70%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 1rem;
+}
+
+.SearchBox button {
+  padding: 12px 20px;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.FeaturedChapters {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.ChapterList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ChapterCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+.ChapterCard:hover {
+  transform: scale(1.05);
+}
+
+.ChapterCard h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.ChapterCard p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.ChapterCard button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.ChapterCard button:hover {
+  background-color: #2574a9;
+}
+
+.Footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.GradeSelector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #333;
+}
+
+#gradeSelect {
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #2574a9; /* Darker shade on hover */
+}

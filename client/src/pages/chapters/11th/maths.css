@@ -1,0 +1,25 @@
+/* MathematicsChapters11.css */
+
+.ChapterCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .ChapterCard {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .ChapterCard h3 {
+    margin-top: 0;
+  }
+  
+  .ChapterCard p {
+    margin-bottom: 0;
+  }
+  

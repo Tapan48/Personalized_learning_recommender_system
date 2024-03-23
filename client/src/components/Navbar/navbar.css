@@ -1,0 +1,48 @@
+.Navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Navbar-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  
+  .Navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+    align-items: right;
+  }
+  
+  .Navbar-links a:hover {
+    color: #61dafb;
+  }
+  
+  .Navbar-buttons a {
+    color: #333;
+    background-color: #61dafb;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Navbar-buttons a:hover {
+    background-color: #4fa3d1;
+  }
+  
